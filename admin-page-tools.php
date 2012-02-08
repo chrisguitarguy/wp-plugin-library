@@ -93,10 +93,10 @@ abstract class Davispress_Admin_Tools extends Davispress_Form_Fields
     
     protected function postbox( $id, $title, $content )
     {
-        $rv = '<div class="postbox" id="' . $id '">';
+        $rv = '<div class="postbox" id="' . $id .'">';
         $rv .= '<div class="handlediv" title="Click to Toggle">&nbsp;</div>';
         $rv .= '<h3 class="hndle">' . $title . '</h3>';
-        $rv .= '<div class="inside">' . $content '</div>';
+        $rv .= '<div class="inside">' . $content . '</div>';
         $rv .= '</div>';
         return $rv;
     }
