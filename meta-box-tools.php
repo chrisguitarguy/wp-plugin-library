@@ -95,6 +95,16 @@ abstract class Davispress_Meta_Box_Tools extends Davispress_Form_Fields
 		</ul>
 		<?php
 	}
+    
+    public function tab_script()
+    {
+        wp_enqueue_script( 'davispress-metabox-tabs-js' );
+    }
+    
+    public function tab_style()
+    {
+        wp_enqueue_style( 'davispress-metabox-tabs-css' );
+    }
 } // end class
 
 endif;

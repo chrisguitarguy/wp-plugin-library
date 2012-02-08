@@ -1,0 +1,50 @@
+div.davispress-tab {
+	background-color:#fff;
+	padding:0 15px 15px 15px;
+	border:1px solid #DFDFDF;	
+}
+
+ul.davispress-meta-box-nav {
+	list-style:none;
+	display:block;
+	margin-bottom:-1px;	
+}
+
+ul.davispress-meta-box-nav li {
+	display:inline-block;
+	padding:0;
+	margin:0;	
+}
+
+ul.davispress-meta-box-nav li a {
+	display:block;
+	padding: 5px 10px;
+	text-decoration:none;
+	-moz-border-radius: 3px 3px 0 0;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-khtml-border-top-left-radius: 3px;
+	-khtml-border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+ul.davispress-meta-box-nav li a.active {
+	background-color:#fff;
+	border-top: 1px solid #DFDFDF;
+	border-right:1px solid #DFDFDF;
+	border-left:1px solid #DFDFDF;
+	border-bottom:1px solid #fff;
+	color:#222;
+}
+
+.davispress-fix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
